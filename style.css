@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    margin: 7px;
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+}
+.container{
+    width: 40%;
+    margin: 50px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 5px 1px rgba(187, 184, 184, 0.863);
+}
+.header{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+header{
+    width: 100%;
+    display: inline-block;
+}
+/* tela de listagem de pessoa  */
+.header-listagem{   
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #82d0f1;
+    margin-bottom: 0px;
+}
+.header-listagem > .titulo{
+    margin-left: 50px;
+}
+.container-tabela{
+    width: 90%;
+    margin: 0 auto;
+}
+.btn-novo-cadastro{
+    display: flex;
+    margin: 30px 0px;
+    /* height: 40px; */
+    margin-bottom: 30px;
+}
+.btn-novo-cadastro > a{
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #45b1de;
+    
+}
+#voltar{
+    margin: 0px auto;
+}
+.table{
+    border: 1px #ccc solid;
+    width: 90%;
+    margin: 0 auto;
+}
+.thead, th{
+    background-color: #82d0f1;
+}
+table, tr, th{
+    border-left: none;
+    padding: 10px 0;
+    border: 2px #ccc solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+.image img{
+    margin-left: 40px;
+    width: 60px;
+    height: 60px;
+}
+.titulo{
+    margin-left: 20px;
+}
+.campo{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.sexo{
+    color: black;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.sexo label {
+    margin-left: 5px;
+}
+#nome, #email, #idade, #celular{
+    padding-left: 5%;
+}  
+img{
+    margin-top: 5px;
+}         
+input{
+    /* width: 100%; */
+    height: 35px;       
+    border-radius: 4px;
+    border: none;
+    background-color: #F2F2F2;
+    /* margin-bottom: 10px;        */
+}
+.filtroPessoa{
+    width: 90%;
+    margin: 10px auto;
+}
+#filtro{
+    padding-left: 20px;
+    width: 100%;
+    /* margin-bottom: 10px; */
+    /* margin-left: 47px  ; */
+}
+.btn{
+    width: 50%;
+    display: block;
+    margin: 25px auto;
+    font-size: 15px;
+    font-weight: bold;color: white;
+    background-color: #45b1de;
+}
+.footer{
+    background-color: #82d0f1;
+    text-align: right;
+}
